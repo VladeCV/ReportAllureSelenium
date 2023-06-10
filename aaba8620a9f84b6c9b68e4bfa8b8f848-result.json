@@ -1,0 +1,94 @@
+{
+  "uuid": "5fc1e3d7e776455d9a3d89df1cbda061",
+  "historyId": "01 Login to Todoist",
+  "fullName": "01 Login to Todoist",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "fv-az446-540"
+    },
+    {
+      "name": "feature",
+      "value": "Task_Managament"
+    }
+  ],
+  "links": [],
+  "name": "01 Login to Todoist",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  I have access to todoist.com",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686378710740,
+      "stop": 1686378712074
+    },
+    {
+      "name": "And  I have access to login form",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686378712074,
+      "stop": 1686378712189
+    },
+    {
+      "name": "When  I use my credentials",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686378712189,
+      "stop": 1686378712980
+    },
+    {
+      "name": "Then  I should see the main page",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686378712980,
+      "stop": 1686378722274
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1686378710740,
+  "stop": 1686378722275
+}

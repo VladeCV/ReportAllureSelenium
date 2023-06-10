@@ -1,0 +1,79 @@
+{
+  "uuid": "b1340763b98f4b62a1d1e20d4332d516",
+  "historyId": "01 Login to page",
+  "fullName": "01 Login to page",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "fv-az446-540"
+    },
+    {
+      "name": "feature",
+      "value": "Send email"
+    }
+  ],
+  "links": [],
+  "name": "01 Login to page",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  I have access to yopmail.com",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686378706635,
+      "stop": 1686378708844
+    },
+    {
+      "name": "When  I put my credentials",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686378708844,
+      "stop": 1686378709502
+    },
+    {
+      "name": "Then  I should be on my inbox",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686378709502,
+      "stop": 1686378709542
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1686378706627,
+  "stop": 1686378709544
+}

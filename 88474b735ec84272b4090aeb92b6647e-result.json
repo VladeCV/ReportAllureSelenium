@@ -1,0 +1,79 @@
+{
+  "uuid": "3535e684fedf40fe9dd28ac4d597451d",
+  "historyId": "03 Verify email sent",
+  "fullName": "03 Verify email sent",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "fv-az446-540"
+    },
+    {
+      "name": "feature",
+      "value": "Send email"
+    }
+  ],
+  "links": [],
+  "name": "03 Verify email sent",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  I change to my inbox",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686378710415,
+      "stop": 1686378710417
+    },
+    {
+      "name": "When  I click on refresh button",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686378710418,
+      "stop": 1686378710610
+    },
+    {
+      "name": "Then  I should see the email subject",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686378710610,
+      "stop": 1686378710714
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1686378710415,
+  "stop": 1686378710714
+}
