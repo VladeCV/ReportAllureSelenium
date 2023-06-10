@@ -1,0 +1,79 @@
+{
+  "uuid": "3f875c2e27c74803bf186c8337849aaa",
+  "historyId": "02 Create an email",
+  "fullName": "02 Create an email",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "fv-az586-488"
+    },
+    {
+      "name": "feature",
+      "value": "Send email"
+    }
+  ],
+  "links": [],
+  "name": "02 Create an email",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  I click on new email and set the data for the mail",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686378250663,
+      "stop": 1686378251545
+    },
+    {
+      "name": "When  I click on send button",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686378251545,
+      "stop": 1686378251664
+    },
+    {
+      "name": "Then  I should see a email was sent message",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686378251664,
+      "stop": 1686378251872
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1686378250663,
+  "stop": 1686378251873
+}
