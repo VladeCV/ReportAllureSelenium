@@ -5,6 +5,6 @@ namespace SeleniumTCS.code.page.Todoist
 {
     public class MainPage
     {
-        public Button loginButton = new Button(By.XPath("//nav//a[text()='Log in']"));
+        public Button loginButton = new(By.XPath("//nav/div//a[text()='Log in']"));
     }
 }

@@ -31,7 +31,7 @@ namespace SeleniumTCS.code.page.Todoist
         }
         public void ClickProjectName(String projectName)
         {
-            Label moreActionsButton = new Label(By.XPath("//a[@aria-label='"+projectName+", 0 tasks']//following-sibling::div//button"));
+            Label moreActionsButton = new Label(By.XPath("//*[@id='projects_list']/li[4]/div/div/span/div/button"));
             moreActionsButton.Click();
         }
     }

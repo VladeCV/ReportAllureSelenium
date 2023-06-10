@@ -11,6 +11,8 @@ namespace SeleniumTCS.code.factoryBrowser
             options.AddArgument("--no-sandbox");
             options.AddArgument("--disable-dev-shm-usage");
             options.AddArgument("--headless");
+            options.AddArgument("--start-maximized");
+            options.AddArgument("--window-size=1920,1080");
             IWebDriver driver = new ChromeDriver(options);
             driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(30);
             driver.Manage().Window.Maximize();
