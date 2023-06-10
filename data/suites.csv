@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sat Jun 10 04:57:32 GMT 2023","Sat Jun 10 04:57:32 GMT 2023","282","","","","","","03 Verify email sent",""
+"passed","Sat Jun 10 04:57:31 GMT 2023","Sat Jun 10 04:57:32 GMT 2023","905","","","","","","02 Create an email",""
+"passed","Sat Jun 10 04:57:28 GMT 2023","Sat Jun 10 04:57:31 GMT 2023","3262","","","","","","01 Login to page",""
